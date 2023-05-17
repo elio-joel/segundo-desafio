@@ -1,53 +1,53 @@
 [
 	{
 		"id": "perfumeria-uno",
-        "title": "Difusor de ambientes",
-        "code": "A01",
-        "price": "$ ARS 450",
+        "title": "Perfume para hombre",
+        "code": "PPA",
+        "price": 450,
         "stock":15
 
     },
     {
 
         "id": "perfumeria-dos",
-        "title": "Palo Santo Sagrada Madre",
-        "code": "A02",
+        "title": "Perfume para mujer",
+        "code": "PPB",
         "price": 500,
 		"stock": 15
     },
     {
-        "id": "perfumeria-tres",
-        "title": "Fragancia para ambientes",
-        "code": "A03",
+        "id": "cremas-uno",
+        "title": "Crema para el cuerpo",
+        "code": "CCA",
         "price": 450,
         "stock": 15
     },
     {
-        "id": "deco-uno",
-        "title": "Desodorante spray p/hombre",
-        "code": "A04",
+        "id": "cremas-dos",
+        "title": "Crema para el rostro",
+        "code": "CCB",
         "price": 2000,
         "stock": 15
     },
     {
-        "id": "deco-dos",
+        "id": "perfumeria-tres",
         "title": "Desodorante spray p/hombre",
-        "code": "A05",
+        "code": "PPC",
         "price": 2000,
         "stock": 15
     },
     {
-        "id": "deco-tres",
+        "id": "perfumeria-cuatro",
         "title": "Desodorante spray p/mujer",
-        "code": "A06",
+        "code": "PPD",
         "price": 2300,
         "stock": 10
     },
     {
-        "id": "deco-cuatro",
+        "id": "perfumeria-cinco",
         "title": "Desodorante spray p/mujer",
-        "code": "A07",
+        "code": "PPE",
         "price": 1500,
-        "stock": 15
+        "stock": 5
     }
 ]

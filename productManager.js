@@ -1,10 +1,10 @@
 import fs from 'fs';
 class Product {
 
-    constructor ({title, price,  code, stock, id}) {
-        if (!title || !price || ! code || !stock === null || id === undefined) throw new Error('All parameters should be specified');
+    constructor ({title, price, code, stock, id}) {
+        if (!title || !price || !code || !stock === null || id === undefined) throw new Error('All parameters should be specified');
 
-        if (typeof title !== 'string' || typeof price !== 'number' || typeof code !== 'string' || typeof stock !== 'number') {
+        if (typeof title !== 'string' || typeof price !== 'number' || typeof code !== 'string' || typeof stock !== 'number' || typeof code !== 'string') {
             throw new Error('Invalid parameter datatype');
         }
 
@@ -49,7 +49,7 @@ class ProductManager {
         return this.products;
     }
 
-    addProduct = async ({title, price,  code, stock}) => {
+    addProduct = async ({title, price, code, stock,}) => {
         await this.initialize();
         if (this.products.some((product) => product.code === code)) {
             throw new Error('The specified code is in use by another existant product');
