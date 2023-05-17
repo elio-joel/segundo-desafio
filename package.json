@@ -1,0 +1,12 @@
+{
+  "name": "cosmeticos",
+  "version": "1.0.0",
+  "description": "Backend of e-commerce 4107 cosmeticos",
+  "main": "productManagerTest.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Heredia Elio",
+  "license": "ISC",
+  "type": "module"
+}

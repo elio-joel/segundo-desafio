@@ -1,0 +1,53 @@
+[
+	{
+		"id": "perfumeria-uno",
+        "title": "Difusor de ambientes",
+        "code": "A01",
+        "price": "$ ARS 450",
+        "stock":15
+
+    },
+    {
+
+        "id": "perfumeria-dos",
+        "title": "Palo Santo Sagrada Madre",
+        "code": "A02",
+        "price": 500,
+		"stock": 15
+    },
+    {
+        "id": "perfumeria-tres",
+        "title": "Fragancia para ambientes",
+        "code": "A03",
+        "price": 450,
+        "stock": 15
+    },
+    {
+        "id": "deco-uno",
+        "title": "Desodorante spray p/hombre",
+        "code": "A04",
+        "price": 2000,
+        "stock": 15
+    },
+    {
+        "id": "deco-dos",
+        "title": "Desodorante spray p/hombre",
+        "code": "A05",
+        "price": 2000,
+        "stock": 15
+    },
+    {
+        "id": "deco-tres",
+        "title": "Desodorante spray p/mujer",
+        "code": "A06",
+        "price": 2300,
+        "stock": 10
+    },
+    {
+        "id": "deco-cuatro",
+        "title": "Desodorante spray p/mujer",
+        "code": "A07",
+        "price": 1500,
+        "stock": 15
+    }
+]
